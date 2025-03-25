@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>TP.ConcurrentProgramming.$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>TP.ConcurrentProgramming.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <VersionPrefix>4.3.0</VersionPrefix>
+    <Copyright>Copyright 2025 Mateusz Grzelak</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Reactive" Version="6.0.1" />
+  </ItemGroup>
+</Project>
